@@ -14,11 +14,10 @@ jobs:
     executor: my-custom-executor
     steps:
       - checkout
-      - run: lscpu
+      - run: |
           # echo Hello, World!
 
 workflows:
   my-custom-workflow:
     jobs:
       - my-job-name
-      - say-hello
