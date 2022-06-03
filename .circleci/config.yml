@@ -1,4 +1,4 @@
-ersion: 2.0
+version: 2.0
 jobs:
   build:
     docker:
